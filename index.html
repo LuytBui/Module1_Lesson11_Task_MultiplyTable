@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    document.write('<h3>Bảng cửu chương</h3>');
+    document.write('<table border="1" cellspacing="0" cellpadding="6">');
+    for (let row = 1; row < 10; row++) {
+        document.write('<tr>');
+        for (let col = 2; col < 10; col++) {
+            document.write('<td>');
+            document.write(col+'x'+row+'='+col*row);
+            document.write('</td>');
+        }
+        document.write('</tr>');
+    }
+    document.write('</table>');
+</script>
+</body>
+</html>
